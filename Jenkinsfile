@@ -3,13 +3,13 @@ pipeline {
 	stages {
 		stage('Install dependencies') {
 			steps {
-				sh 'npm install’
+				sh 'npm install'
 				}
 			}
 
 		stage('Run tests') {
 			steps {
-				sh 'node toit.js’
+				sh 'node toit.js'
 				}
 			}
 		}
